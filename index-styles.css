@@ -1,0 +1,59 @@
+:root {
+  --color-light-purple: #7F8Cff;
+  --color-purple: #6070ff;
+  --color-dark-purple: #344563;
+  --color-offblack: #091e42;
+}
+
+.navbar-brand,
+.navbar ul a {
+  line-height: 1.25rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-purple);
+}
+
+.navbar ul a {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--color-dark-purple);
+}
+
+#header-text {
+  color: var(--color-offblack);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.75rem;
+}
+
+p {
+  color: var(--color-dark-purple);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--color-light-purple);
+}
+
+header {
+  height: calc(100vh - 62px);
+  background-image: url(asset/header-bg-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  padding: 0 6rem;
+}
+/*? bootstrap overwrite */
+
+dl,
+ol,
+ul {
+  margin: unset;
+}
