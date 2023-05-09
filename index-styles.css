@@ -40,6 +40,16 @@ p {
   color: var(--color-light-purple);
 }
 
+header {
+  height: calc(100vh - 62px);
+  background-image: url(asset/header-bg-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header .container {
+  padding: 0 6rem;
+}
 /*? bootstrap overwrite */
 
 dl,
