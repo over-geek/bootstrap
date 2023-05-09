@@ -1,0 +1,29 @@
+:root {
+  --color-purple: #6070ff;
+  --color-dark-purple: #344563;
+}
+
+.navbar-brand,
+.navbar ul a {
+  line-height: 1.25rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--color-purple);
+}
+
+.navbar ul a {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--color-dark-purple);
+}
+
+/*? bootstrap overwrite */
+
+dl,
+ol,
+ul {
+  margin: unset;
+}
