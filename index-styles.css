@@ -1,6 +1,8 @@
 :root {
+  --color-light-purple: #7F8Cff;
   --color-purple: #6070ff;
   --color-dark-purple: #344563;
+  --color-offblack: #091e42;
 }
 
 .navbar-brand,
@@ -18,6 +20,24 @@
   font-weight: 500;
   font-size: 1rem;
   color: var(--color-dark-purple);
+}
+
+#header-text {
+  color: var(--color-offblack);
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.75rem;
+}
+
+p {
+  color: var(--color-dark-purple);
+}
+
+.contact-link {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--color-light-purple);
 }
 
 /*? bootstrap overwrite */
